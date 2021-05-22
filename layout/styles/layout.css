@@ -332,11 +332,11 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#A5A6AA; background-color:#000000;}
-a{color:#B0CA35;}
+a{color:#3537CA;}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
+input:focus, textarea:focus, *:required:focus{border-color:#3537CA !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
@@ -346,11 +346,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
 .btn, .btn.inverse:hover{color:#FFFFFF; background-color:#354ECA; border-color:#3537CA;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
-.coloured{color:#FFFFFF; background-color:#B0CA35;}
-.coloured .btn{color:#B0CA35; background-color:#FFFFFF;}
+.coloured{color:#FFFFFF; background-color:#3537CA;}
+.coloured .btn{color:#3537CA; background-color:#FFFFFF;}
 .coloured .btn:hover{color:inherit; background-color:transparent; border-color:inherit;}
 
-.imgover:hover::before{background-color:rgba(176,202,53,.3);/* #B0CA35 */}
+.imgover:hover::before{background-color:rgba(176,202,53,.3);/* #3537CA */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 
 
@@ -365,7 +365,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
 
 
 /* Top Bar */
-#topbar #searchform{color:#B0CA35;}
+#topbar #searchform{color:#3537CA;}
 #topbar #searchform input{color:#FFFFFF; background:#889C29;}
 #topbar #searchform button{color:#FFFFFF; background:transparent;}
 
@@ -381,8 +381,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
 /* Content Area */
 .elements article, #services .elements article:hover{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
 .elements article:hover, #services .elements article:hover{border-color:#889C29;}
-.elements article a i{color:#B0CA35; background-color:#F4F4F4;}
-.elements article:hover a i, #introblocks .elements li:nth-child(even) article:hover a i{color:#FFFFFF; background-color:#B0CA35;}
+.elements article a i{color:#3537CA; background-color:#F4F4F4;}
+.elements article:hover a i, #introblocks .elements li:nth-child(even) article:hover a i{color:#FFFFFF; background-color:#3537CA;}
 #introblocks .elements article:hover{box-shadow:0px 0px 15px rgba(0,0,0,.1);}
 #introblocks .elements li:nth-child(even) article{background-color:#F4F4F4;}
 #introblocks .elements li:nth-child(even) article a i{background-color:#FFFFFF;}
@@ -390,8 +390,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
 #services .elements article > p:last-of-type{border-color:#D7D7D7;}
 
 .shout figure figcaption a{color:inherit; background-color:inherit; border-color:#D7D7D7;}
-.shout figure:hover figcaption a, .shout figure figcaption a::after{color:#FFFFFF; background-color:#B0CA35; border-color:#B0CA35;}
-.shout figure:hover figcaption a::after{color:#B0CA35; background-color:#FFFFFF;}
+.shout figure:hover figcaption a, .shout figure figcaption a::after{color:#FFFFFF; background-color:#3537CA; border-color:#3537CA;}
+.shout figure:hover figcaption a::after{color:#3537CA; background-color:#FFFFFF;}
 
 
 /* Footer */
@@ -401,34 +401,34 @@ input:focus, textarea:focus, *:required:focus{border-color:#B0CA35 !important;}
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
 #footer input:focus{background-color:#889C29;}
-#footer button{color:#FFFFFF; background-color:#B0CA35;}
+#footer button{color:#FFFFFF; background-color:#3537CA;}
 #footer button:hover{color:inherit; background-color:transparent; border-color:inherit;}
 
 #ctdetails{border-color:rgba(255,255,255,.2);}
 #ctdetails::before, #ctdetails::after{background:rgba(255,255,255,.2);}
 #ctdetails > ul li{color:inherit; background-color:rgba(255,255,255,.2);}
 #ctdetails > ul li i, #ctdetails > ul li strong{color:#FFFFFF;}
-#ctdetails > ul li a i{background-color:#B0CA35;}
+#ctdetails > ul li a i{background-color:#3537CA;}
 #ctdetails > ul li:nth-child(even), #ctdetails > ul li:hover{color:#FFFFFF; background-color:#889C29;}
 
 
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#889C29; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(176,202,53,.5); border-color:rgba(176,202,53,.5);/* #B0CA35 */}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#B0CA35;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(176,202,53,.5); border-color:rgba(176,202,53,.5);/* #3537CA */}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#3537CA;}
 #mainav form select{color:#474747; background-color:#FFFFFF; border-color:#D7D7D7;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#B0CA35;}
+#breadcrumb li:last-child a{color:#3537CA;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#B0CA35;}
+.container .sidebar nav a:hover{color:#3537CA;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#B0CA35;}
+.pagination .current *{color:#FFFFFF; background-color:#3537CA;}
 
-#backtotop{color:#FFFFFF; background-color:#B0CA35;}
+#backtotop{color:#FFFFFF; background-color:#3537CA;}
 
 
 /* Tables + Comments */
