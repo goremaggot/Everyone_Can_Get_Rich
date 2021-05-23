@@ -1,0 +1,8 @@
+@charset "utf-8";
+.tftable {font-size:12px;width:auto;;border-width: 1px;margin-left: auto; margin-right: auto;}
+.tftable th {font-size:12px;border-width: 1px;padding: 8px;}
+.tftable td {font-size:12px;border-width: 1px;padding: 8px;}
+.tftable tr:hover {background-color:#ffffff;}
+
+.text-align-center {text-align: center;}
+.center {margin-left: auto; margin-right: auto;}
