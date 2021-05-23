@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+Template Name: Siopp
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Home | Calculator</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="../layout/styles/tablecalculator.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded" style="background-image:url('..images/backgrounds/01.jpeg');">
+  <!-- ################################################################################################ -->
+  <div class="wrapper overlay row0">
+    <div id="topbar" class="hoc clear">
+      <div class="fl_left">
+        <!-- ################################################################################################ -->
+        <ul class="nospace">
+          <li><i class="fas fa-phone rgtspace-5"></i> +57 (123) 456 7890</li>
+          <li><i class="far fa-envelope rgtspace-5"></i> info@domain.com</li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </div>
+      <div class="fl_right">
+        <!-- ################################################################################################ -->
+        <ul class="nospace">
+          <li><a href="../index.html"><img src="../images/icons/01.png" style="width:20px;height:20px;"></a></li>
+          <li><a href="#" title="Help Center"><img src="../images/icons/02.png" style="width:20px;height:20px;"></a></li>
+          <li><a href="#" title="Login"><img src="../images/icons/03.png" style="width:20px;height:20px;"></i></a></li>
+          <li><a href="#" title="Sign Up"><img src="../images/icons/04.png" style="width:20px;height:20px;"></i></a></li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </div>
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper overlay">
+    <div id="breadcrumb" class="hoc clear">
+      <!-- ################################################################################################ -->
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">Calculator</a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear">
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content">
+      <!-- ################################################################################################ -->
+      <h2 class="text-align-center">Simple Interest Calculator</h2>
+       <form>
+         <table class="tftable" border="1">
+          <tr>
+           <td> <label for="capital">Initial capital :</label> </td>
+           <td> <input type="number" id="capital" name="capital"> </td>
+          </tr>
+         <tr>
+           <td> <label for="interest">Interest rate %:</label> </td>
+           <td> <input type="numer" id="interest" name="interest"> </td>
+         </tr>
+         <tr>
+           <td>
+             <label for="time">Time :</label>
+             <input type="number" id="time" name="time">
+           </td>
+           <td>
+             <label for="typetime">In:</label>
+             <select name="typetime" id="typetime">
+                <option value=1>Years</option>
+                <option value=2>Months</option>
+             </select>
+           </td>
+         </tr>
+         </table>
+
+        <input class="center" onclick="calculator()" type="button" value="Submit">
+       </form>
+
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay row4" style="background-image:url('../images/demo/backgrounds/01.png');">
+  <footer id="footer" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <article>
+      <ul class="nospace group">
+        <li class="one_third first">
+          <div class="clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>Give us a call:</strong> +00 (123) 456 7890</span></div>
+        </li>
+        <li class="one_third">
+          <div class="clear"><a href="#"><i class="fas fa-envelope"></i></a> <span><strong>Send us a mail:</strong> support@domain.com</span></div>
+        </li>
+        <li class="one_third">
+          <div class="clear"><a href="#"><i class="fas fa-map-marker-alt"></i></a> <span><strong>Come visit us:</strong> Directions to <a href="#">our location</a></span></div>
+        </li>
+      </ul>
+    </article>
+    <!-- ################################################################################################ -->
+
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2021 - All Rights Reserved - <a href="#">www.everyonecangetrich.org</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+<!-- JAVASCRIPTS MADE BY ME -->
+<script src="../layout/scripts/calculator.js"></script>
+</body>
+</html>
