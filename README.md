@@ -7,10 +7,15 @@ Downloaded the siopp template from the site: https://www.os-templates.com/free-w
 
 The files were edited:
 - index.html : We changed the presentation of the page as suggested by the exercise.
+- 
 - pages/calculator.html: A new html document was created, which contains the simple interest calculator.
+- 
 -layout/styles/layout.css : Changed the color of the icons, and some settings to adapt the web page to the one suggested by the exercise.
+
 -layout/styles/tablecalculator.css : CSS file is created for the calculator table.
+
 -layout/scripts/calculator.js : The Js is created to calculate the simple interest and the validations of the fields.
+
 -images/backgrounds: Images related to financials are added.
 
-Translated with www.DeepL.com/Translator (free version)
+
