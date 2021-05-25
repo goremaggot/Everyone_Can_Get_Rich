@@ -7,7 +7,8 @@ function calculator() {
   var total;
   var months;
   var fieldempty = false;
-  var alertemptfields = "Please type the fields: "
+  var alertemptfields = "Please type the fields Correctly: "
+  var alertM ;
 
   if (capital.value == null || capital.value == 0) {
     alertemptfields = alertemptfields + "\n" + "- Capital"
@@ -25,18 +26,24 @@ function calculator() {
     alert(alertemptfields);
   }
   else {
-    if (typetime.value == 1) {
-      months = time.value;
+    if (typetime.value == 2) {
+      months = time.value / 12;
       interestfloat = interest.value / 100;
       total = capital.value * interestfloat * months;
-      alert("The result is $" + total )
+      alertM = "If you deposit " + capital.value + "\n";
+      alertM = alertM + " at an interest rate of " + interest.value + " %"+ "\n";
+      alertM = alertM + " You Will receive an amount of " + total.toFixed(2); + "\n";
+      alert(alertM);
     }
     else{
-      if (typetime.value == 2) {
-        months = time.value * 12;
+      if (typetime.value == 1) {
+        months = time.value;
         interestfloat = interest.value / 100;
         total = capital.value * interestfloat * months;
-        alert("The result is $" + total )
+        alertM = "If you deposit " + capital.value + "\n";
+        alertM = alertM + " at an interest rate of " + interest.value + " %"+ "\n";
+        alertM = alertM + " You Will receive an amount of " + total.toFixed(2); + "\n";
+        alert(alertM);
       }
       else {
       alert("Error in Type of time")
