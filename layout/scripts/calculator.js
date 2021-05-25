@@ -10,15 +10,15 @@ function calculator() {
   var alertemptfields = "Please type the fields Correctly: "
   var alertM ;
 
-  if (capital.value == null || capital.value == 0) {
+  if (capital.value == null || capital.value == 0 || capital.value < 0) {
     alertemptfields = alertemptfields + "\n" + "- Capital"
     fieldempty = true;
   }
-  if (interest.value == null || interest.value == 0) {
+  if (interest.value == null || interest.value == 0 || interest.value < 0) {
     alertemptfields = alertemptfields + "\n" + "- Interest"
     fieldempty = true;
   }
-  if (time.value == null || time.value == 0) {
+  if (time.value == null || time.value == 0 || time.value < 0) {
     alertemptfields = alertemptfields + "\n" + "- Time"
     fieldempty = true;
   }
